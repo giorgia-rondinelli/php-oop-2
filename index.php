@@ -7,7 +7,7 @@ require_once __DIR__ .'/model/toys.php';
 
 require_once __DIR__ .'/data/db.php';
 
-
+var_dump($products);
 
 ?>
 
