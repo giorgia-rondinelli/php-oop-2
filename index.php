@@ -1,6 +1,13 @@
 <?php
 
-require_once __DIR__ .'/model/products.php'
+require_once __DIR__ .'/model/products.php';
+require_once __DIR__ .'/model/food.php';
+require_once __DIR__ .'/model/kennels.php';
+require_once __DIR__ .'/model/toys.php';
+
+require_once __DIR__ .'/data/db.php';
+
+
 
 ?>
 
