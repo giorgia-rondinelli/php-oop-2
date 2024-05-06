@@ -1,0 +1,19 @@
+body{
+  background-image:url(img/paws.jpg);
+}
+header{
+  background-color: rgb(249, 249, 78);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: rgb(14, 14, 68);
+}
+
+.card{
+  border: 5px solid rgb(14, 14, 68);
+  background-color:rgb(249, 249, 78) ;
+}
+
+.titolo{
+  text-transform: capitalize;
+}
