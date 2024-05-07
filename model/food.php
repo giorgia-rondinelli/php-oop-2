@@ -1,5 +1,13 @@
 <?php
+
+require_once __DIR__ .'/review.php';
+
+
+
+
 class food extends products{
+
+  use review;
   public $ingredients;
   public $quantity;
   public $type;

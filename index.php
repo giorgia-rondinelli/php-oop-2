@@ -7,7 +7,13 @@ require_once __DIR__ .'/model/toys.php';
 
 require_once __DIR__ .'/data/db.php';
 
+// TRAIT
+// $crocchette= new food('cane  ','crocchette per cani di taglia grande ','25.00','grande ','hibeef',['manzo','pollo'],'2.5kg','cibo secco','img\monge-cane.jpg');
+// $crocchette->review ='4 su 5';
+// var_dump($crocchette);
 
+// creo un array che conterrà solo food per pi ciclarlo e stamparlo il pagina 
+// $food= array_filter($products, fn($product ) =>get_class($product)=== 'food' )
 
 ?>
 
